@@ -2,7 +2,7 @@
 
 # Frontstack Website Source
 
-This is the repository for the source code of the [frontstack.io](frontstack.io) website.
+This is the repository for the source code of the [frontstack.io](https://frontstack.io) website.
 
 ## About Frontstack
 
