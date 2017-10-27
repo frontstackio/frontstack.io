@@ -13,6 +13,7 @@
  ********************************************** */
 
 /* 1 - Variables ****************************** */
+
 :root {
   --theme-colour: #D33257;
   --theme-colour-light: #F05377;
@@ -21,16 +22,20 @@
 
 /* 2 - Typography ****************************** */
 
+html {
+  font-size: 16px;
+}
+
 body {
   color: #fff;
   color: rgba(255,255,255,0.7);
   font-family: "Overpass", sans-serif;
-  font-size: 16px;
+  font-size: 1rem;
   line-height: 1.6;
 }
 
 h2 {
-  font-size: 20px;
+  font-size: 1.2rem;
   font-weight: 600;
   text-transform: lowercase;
   margin-bottom: 25px;
@@ -68,13 +73,14 @@ pre .tag {
   color: var(--theme-colour);
 }
 
-pre .attr {
+pre .attr,
+pre .co {
   font-weight: 600;
-  color: var(--secondary-colour);;
+  color: var(--secondary-colour);
 }
 
 pre .val {
-  color: var(--theme-colour-light);;
+  color: var(--theme-colour-light);
 }
 
 pre a {
@@ -301,13 +307,4 @@ footer a {
   font-size: 14px;
   cursor: pointer;
   border-radius: 50px;
-}
-
-/* Profile Image */
-
-.profile {
-  margin: 20px 20px 20px 0;
-  width: 120px;
-  max-width: 40%;
-  height: auto;
 }
