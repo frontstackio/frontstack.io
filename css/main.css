@@ -307,3 +307,15 @@ footer a {
   cursor: pointer;
   border-radius: 50px;
 }
+
+/* Meetups list */
+
+#meetups li {
+  margin-bottom: 30px;
+}
+
+@media (min-width: 600px) {
+  #meetups li {
+    margin-bottom: 50px;
+  }
+}
